@@ -1,5 +1,5 @@
 # LITA_Projects - SalesData.
-This repository will contain my project analyses and visualizations.
+This repository will contain my Sales Data-project analyses and visualizations.
 
 ## PROJECT TITLE: Sales Data
 
@@ -9,17 +9,18 @@ This Data Analysis Project aims to generate insight into the sales performance o
 ---
 ### Tables of Content
 [Data Sources](#Data-Sources)
+
 [Data Collected](#Data-Collected)
+
 [Tools used](#Tools-used)
+
 [Data Cleaning and Preparation](Data-Cleaning-and-Preparation)
+
 [Exploratory Data Analysis.](Exploratory-Data-Analysis.)
+
 [Data Analysis, Visual Analysis and Inference](Data-Analysis-Visual-Analysis-and-Inference)
 
-Result
-
-Recommendation
-
-Contribution
+[Recommendation](Recommendation)
 
 ### Data Sources
 The primary source of data used is an Excel datasheet provided by the LITA Data Analysis Team.
