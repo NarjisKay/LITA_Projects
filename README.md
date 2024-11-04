@@ -53,7 +53,7 @@ EDA involved the exploring of the data to answer some questions about the data;
 - The highest-selling product by total sales value.
 - The average sales per product.
 - The total revenue by region.
-
+It provides insight into sales patterns, product popularity, and customer behaviour.
 
 ### Data Analysis, Visual Analysis and Inference
 These are some of the codes, queries and formula used in the course of the analysis;
