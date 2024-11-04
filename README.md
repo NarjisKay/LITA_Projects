@@ -56,6 +56,22 @@ EDA involved the exploring of the data to answer some questions about the data;
 
 
 ### Data Analysis, Visual Analysis and Inference
+These are some of the codes, queries and formula used in the course of the analysis;
+
+```SQL
+SELECT month(OrderDate) AS month, SUM(Quantity * UnitPrice) AS Monthly_Total
+FROM salesdata WHERE YEAR(OrderDate) = YEAR(curdate()) GROUP BY month(OrderDate) 
+ORDER BY MONTH(OrderDate);
+
+```SQL
+SELECT `Customer Id`, SUM(Quantity * UnitPrice) AS Total_Purchase
+FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
+
+```EXCEL
+	TotalSales = Quantity * UnitPrice
+```
+
+
 ![Screenshot (47)](https://github.com/user-attachments/assets/95210d48-ae51-4d60-96f3-eee969c35954)
 
 ![Screenshot (48)](https://github.com/user-attachments/assets/d8e7ca85-21d8-48f3-89a8-2ddc61deefc6)
@@ -79,21 +95,6 @@ EDA involved the exploring of the data to answer some questions about the data;
 ![Screenshot (28)](https://github.com/user-attachments/assets/a08184d6-af79-47cb-991d-f0ac0fe50eed)
 
 ![Screenshot (29)](https://github.com/user-attachments/assets/143a0995-12ce-4f4b-8b8d-d4d4e461af10)
-
-
-These are some of the codes, queries and formula used in the course of the analysis;
-
-```SQL
-SELECT month(OrderDate) AS month, SUM(Quantity * UnitPrice) AS Monthly_Total
-FROM salesdata WHERE YEAR(OrderDate) = YEAR(curdate()) GROUP BY month(OrderDate) 
-ORDER BY MONTH(OrderDate);
-
-```SQL
-SELECT `Customer Id`, SUM(Quantity * UnitPrice) AS Total_Purchase
-FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
-
-```EXCEL
-	TotalSales = Quantity * UnitPrice
 
 
 
