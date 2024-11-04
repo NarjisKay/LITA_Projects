@@ -20,6 +20,8 @@ This Data Analysis Project aims to generate insight into the sales performance o
 
 [Data Analysis, Visual Analysis and Inference](Data-Analysis-Visual-Analysis-and-Inference)
 
+[Visual Analysis and Inference](Visual-Analysis-and-Inference)
+
 [Recommendation](Recommendation)
 
 ### Data Sources
@@ -55,7 +57,7 @@ EDA involved the exploring of the data to answer some questions about the data;
 - The total revenue by region.
 It provides insight into sales patterns, product popularity, and customer behaviour.
 
-### Data Analysis, Visual Analysis and Inference
+### Data Analysis
 These are some of the codes, queries and formula used in the course of the analysis;
 
 ```SQL
@@ -71,6 +73,7 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 	TotalSales = Quantity * UnitPrice
 ```
 
+### Visual Analysis and Inference
 
 ![Screenshot (47)](https://github.com/user-attachments/assets/95210d48-ae51-4d60-96f3-eee969c35954)
 
