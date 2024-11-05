@@ -100,4 +100,45 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 ![Screenshot (29)](https://github.com/user-attachments/assets/143a0995-12ce-4f4b-8b8d-d4d4e461af10)
 
 
+It was discovered through the analysis that Shoes generated the highest revenue (#6,133,380), followed by Shirts (#485,600), Hats (#3,161,950), Gloves (#296,900), Jackets (#208,230), and Socks (#180,785).
 
+By region, the total revenue was highest in the South (#927,820) and lowest in the West (#300,345).
+
+In 2023, the highest sales were recorded in July (#237,600), with the lowest in April (#7,425).  
+In 2024, the highest sales occurred in February (#298,800), while the lowest was in July (#37,200).
+
+Purchase volume was greatest in the East (2,483 transactions) and lowest in the West (2,477 transactions).
+
+The sales percentage was highest in the South (44.159%) and lowest in the West (14.295%).
+
+
+### Recommendations.
+
+Here are some recommendations based on the data inference:
+
+1. Focus on High-Revenue Products:
+   - Shoes generate the highest revenue, followed by Shirts and Hats. Increasing marketing efforts or expanding the product line for these categories could drive further sales. For example, promoting new shoe styles or seasonal clothing releases might attract additional purchases.
+
+2. Boost Sales in Low-Performing Categories:
+   - Jackets and Socks are among the lowest-revenue products. Increase their appeal by combining them with top-selling items or offering special discounts. Alternatively, evaluate the customer demand for these items if sales continue to lag.
+
+3. Increase Focus in the South Region
+   - The Southern region is leading in revenue and also has the highest sales percentage (44.159%). To maximize revenue potential, consider increasing stock availability, opening new locations, or launching targeted promotions in this region to leverage its high demand. 
+
+4. Enhance Marketing in the West Region
+   - With the lowest revenue and sales percentage, the West represents an area with potential for growth. Implement targeted marketing campaigns, promotions, or community engagement in this region to build brand awareness and increase sales.
+
+5. Optimize Inventory and Supply Chain
+   - The distribution of purchases across regions (East, North, South, and West) shows relatively even demand, with slight variation. Maintaining a balanced inventory across regions could help meet demand without overstocking.
+Additionally, focusing on inventory for high-demand items like Shoes and Shirts in regions with high sales could optimize stock turnover and reduce costs.
+
+6. Leverage Customer Insights for Loyalty Programs
+   - Since the East had a high number of purchases and produced the highest revenue, it may be beneficial to implement loyalty programs in this region to retain these valuable customers. Engaging repeat customers with rewards, early access to new products, or exclusive discounts could drive repeat purchases.
+
+7. Prepare for Expected Demand in High-Sales Months
+   - With sales spikes in July 2023 and February 2024, planning for stock replenishment in advance of these months can help prevent stockouts and missed sales opportunities. Ensure adequate staffing and logistics support during these peak months.
+
+- For months with lower sales (e.g., April 2023 and July 2024), consider running special promotions to stimulate demand during these periods.
+
+8. Enhance Data Collection for Further Insights.
+   - Gathering more detailed data on customer demographics, purchasing behavior, and feedback could help refine strategies. For example, understanding why specific regions or products underperform may provide insights to address these gaps effectively.
