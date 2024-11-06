@@ -101,12 +101,14 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 
 
 It was discovered through the analysis that Shoes generated the highest revenue (#6,133,380), followed by Shirts (#485,600), Hats (#3,161,950), Gloves (#296,900), Jackets (#208,230), and Socks (#180,785).
-Although Shoes generated the highest revenue, it does not have the highest units sold (#14,402), Hats had the highest units sold (#15,929). Jackets, however, sold the lowest at #5,452 units.
+Although Shoes generated the highest revenue, it does not have the highest units sold (14,402), Hats had the highest units sold (15,929). Jackets, however, sold the lowest at 5,452 units.
 
 By region, the total revenue was highest in the South (#927,820) and lowest in the West (#300,345).
 
-In 2023, the highest sales were recorded in July (#237,600), with the lowest in April (#7,425).  
-In 2024, the highest sales occurred in February (#298,800), while the lowest was in July (#37,200).
+In 2023, the highest sales were recorded in July (#237,600) with 5,940 units sold, the lowest sales in April (#7,425) with 1,485 units.  
+In 2024, the highest sales occurred in February (#298,800) with 4,980 units, while the lowest was recorded in July (#37,200) with 2,480 units.
+
+In addition, 
 
 Purchase volume was greatest in the East (2,483 transactions) and lowest in the West (2,477 transactions).
 
