@@ -75,15 +75,15 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 
 ### Visual Analysis and Inference
 
-![Screenshot (47)](https://github.com/user-attachments/assets/95210d48-ae51-4d60-96f3-eee969c35954)
 
-![Screenshot (48)](https://github.com/user-attachments/assets/d8e7ca85-21d8-48f3-89a8-2ddc61deefc6)
+
+
 
 ![Screenshot (49)](https://github.com/user-attachments/assets/3b5edf4e-c95d-46c3-a713-68d9a56bf1af)
 
 ![Screenshot (50)](https://github.com/user-attachments/assets/67448b3f-f1e5-4185-ab5b-d80fd2181194)
 
-![Screenshot (51)](https://github.com/user-attachments/assets/45a32a1f-d413-4faf-872f-4ce23fcc0d73)
+
 
 ![Screenshot (23)](https://github.com/user-attachments/assets/11cbaaa0-17ad-49e1-aa18-1ea0204f565d)
 
@@ -101,6 +101,7 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 
 
 It was discovered through the analysis that Shoes generated the highest revenue (#6,133,380), followed by Shirts (#485,600), Hats (#3,161,950), Gloves (#296,900), Jackets (#208,230), and Socks (#180,785).
+Although Shoes generated the highest revenue, it does not have the highest units sold (#14,402), Hats had the highest units sold (#15,929). Jackets, however, sold the lowest at #5,452 units.
 
 By region, the total revenue was highest in the South (#927,820) and lowest in the West (#300,345).
 
