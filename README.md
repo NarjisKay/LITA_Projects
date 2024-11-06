@@ -101,6 +101,11 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 
 ![Screenshot (61)](https://github.com/user-attachments/assets/2c7227c4-6fce-4bdb-a9a9-b1fcc0669fe8)
 
+![Screenshot (67)](https://github.com/user-attachments/assets/8fa48c1b-f547-4add-be28-6eeab35d6ac4)
+
+![Screenshot (69)](https://github.com/user-attachments/assets/27af6c6e-c9ea-4e5d-b1d3-2ccf83e53516)
+
+
 #### Inference.
 It was discovered through the analysis that Shoes generated the highest revenue (#6,133,380), followed by Shirts (#485,600), Hats (#3,161,950), Gloves (#296,900), Jackets (#208,230), and Socks (#180,785).
 Although Shoes generated the highest revenue, it does not have the highest units sold (14,402), Hats had the highest units sold (15,929). Jackets, however, sold the lowest at 5,452 units.
