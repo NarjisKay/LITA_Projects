@@ -75,31 +75,33 @@ FROM salesdata group by `Customer Id` ORDER BY Total_Purchase DESC LIMIT 5;
 
 ### Visual Analysis and Inference
 
+![Sales dat](https://github.com/user-attachments/assets/90ba3756-9082-4e17-8c19-9924d5342571)
 
+![Screenshot (26)](https://github.com/user-attachments/assets/91f27232-1618-4b1d-a694-83d742f43b27)
 
+![Screenshot (25)](https://github.com/user-attachments/assets/b191072c-6e44-4ffa-9548-0440c098f0ce)
 
+![Screenshot (24)](https://github.com/user-attachments/assets/b98f358b-e1f2-44e2-9273-fb3448c88ac9)
 
-![Screenshot (49)](https://github.com/user-attachments/assets/3b5edf4e-c95d-46c3-a713-68d9a56bf1af)
+![Screenshot (23)](https://github.com/user-attachments/assets/2543d6aa-715f-4ac4-be55-1529d5f4e2ef)
 
-![Screenshot (50)](https://github.com/user-attachments/assets/67448b3f-f1e5-4185-ab5b-d80fd2181194)
+![Screenshot (29)](https://github.com/user-attachments/assets/f2dcf69c-6ab4-4c0f-887a-2508fcedfd40)
 
+![Screenshot (28)](https://github.com/user-attachments/assets/d1870df9-de64-4453-af7d-f0bc38f2e9f8)
 
+![Screenshot (27)](https://github.com/user-attachments/assets/a0601715-50e9-4a98-b64c-96ba850a7178)
 
-![Screenshot (23)](https://github.com/user-attachments/assets/11cbaaa0-17ad-49e1-aa18-1ea0204f565d)
+![Screenshot (66)](https://github.com/user-attachments/assets/374ef17e-16cf-40fa-b551-103c1a55f05a)
 
-![Screenshot (24)](https://github.com/user-attachments/assets/852830d2-1893-494c-bd9a-2ea84c6e89af)
+![Screenshot (65)](https://github.com/user-attachments/assets/d73e915b-33c0-42b8-81c9-2395f01f33b2)
 
-![Screenshot (25)](https://github.com/user-attachments/assets/4aa14c7c-331b-4040-aa27-ab7fcf81b07a)
+![Screenshot (64)](https://github.com/user-attachments/assets/18244588-4ad3-4264-8f9b-1d470772aea2)
 
-![Screenshot (26)](https://github.com/user-attachments/assets/4dbe944c-4ff6-4dee-bfc3-11284774dfa6)
+![Screenshot (62)](https://github.com/user-attachments/assets/7d2e95c0-2903-4b03-af95-6599e614dd0e)
 
-![Screenshot (27)](https://github.com/user-attachments/assets/164a2157-cdb3-4b7b-9b97-66627700980c)
+![Screenshot (61)](https://github.com/user-attachments/assets/2c7227c4-6fce-4bdb-a9a9-b1fcc0669fe8)
 
-![Screenshot (28)](https://github.com/user-attachments/assets/a08184d6-af79-47cb-991d-f0ac0fe50eed)
-
-![Screenshot (29)](https://github.com/user-attachments/assets/143a0995-12ce-4f4b-8b8d-d4d4e461af10)
-
-
+#### Inference.
 It was discovered through the analysis that Shoes generated the highest revenue (#6,133,380), followed by Shirts (#485,600), Hats (#3,161,950), Gloves (#296,900), Jackets (#208,230), and Socks (#180,785).
 Although Shoes generated the highest revenue, it does not have the highest units sold (14,402), Hats had the highest units sold (15,929). Jackets, however, sold the lowest at 5,452 units.
 
